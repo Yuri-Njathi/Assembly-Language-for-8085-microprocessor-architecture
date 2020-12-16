@@ -1,0 +1,18 @@
+
+;<Program title>
+
+jmp start
+
+;data
+
+
+;code
+start: nop
+;set acc to 43
+MVI A 43
+;set B register to 89
+MVI B 89
+;ADD register to memory
+ADD B
+
+hlt

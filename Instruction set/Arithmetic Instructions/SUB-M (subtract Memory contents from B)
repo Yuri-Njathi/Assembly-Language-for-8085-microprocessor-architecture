@@ -1,0 +1,19 @@
+
+;<Program title>
+
+jmp start
+
+;data
+
+
+;code
+start: nop
+;set acc value 90
+MVI A, 90
+;set M address 10 value 16
+MVI L, 10
+MVI M, 16
+
+;subtract 16 from 90, memory from acc
+SUB M
+hlt

@@ -1,0 +1,17 @@
+
+;<Program title>
+
+jmp start
+
+;data
+
+
+;code
+start: nop
+
+;set register B = 10
+MVI B, 10
+
+;decrement register pair BC
+DCX B
+hlt

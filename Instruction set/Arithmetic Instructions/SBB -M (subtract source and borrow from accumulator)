@@ -1,0 +1,31 @@
+
+;<Program title>
+
+jmp start
+
+;data
+
+
+;code
+start: nop
+;borrow flag and carry flag are the same thing.
+;subtract greater value from smaller value
+
+;get negative number.
+;set acc with smaller 10
+MVI A,10
+;set R-B with greater 20
+MVI B, 20
+;get negative carry(borrow).
+SUB B
+
+;set memory 5 to 10
+MVI L, 5
+MVI M, 10
+;subtract with borrow
+SBB M
+
+;remember to always reset your values
+
+
+hlt

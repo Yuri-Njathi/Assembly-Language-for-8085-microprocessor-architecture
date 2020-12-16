@@ -1,0 +1,15 @@
+
+;<Program title>
+
+jmp start
+
+;data
+
+
+;code
+start: nop
+MVI A, 56
+;add to acc immediately
+ADI 45
+
+hlt

@@ -1,0 +1,21 @@
+
+;<Program title>
+
+jmp start
+
+;data
+
+
+;code
+start: nop
+;set acc to 255
+MVI A, 255
+;set B register to 89
+MVI B, 89
+;ADD register to accumulator leading to carry 1
+ADD B
+;ADD reg + carry to register D
+MVI D,1
+ADC D
+
+hlt

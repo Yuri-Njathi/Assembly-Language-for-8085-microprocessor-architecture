@@ -1,0 +1,19 @@
+
+;<Program title>
+
+jmp start
+
+;data
+
+
+;code
+start: nop
+;set reg values
+MVI H, 45
+MVI L, 23
+MVI B, 89
+;add reg B to H and L
+DAD B
+
+
+hlt

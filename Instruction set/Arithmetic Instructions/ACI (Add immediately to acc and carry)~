@@ -1,0 +1,17 @@
+
+;<Program title>
+
+jmp start
+
+;data
+
+
+;code
+start: nop
+;create carry.
+MVI A,255
+ADI 1
+;ADD 2 to acc and carry
+ACI 2
+
+hlt

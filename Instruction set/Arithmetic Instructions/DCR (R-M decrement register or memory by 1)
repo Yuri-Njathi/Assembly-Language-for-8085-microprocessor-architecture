@@ -1,0 +1,28 @@
+
+;<Program title>
+
+jmp start
+
+;data
+
+
+;code
+start: nop
+;set accum to 21
+MVI A, 21 
+;decrement accumulator by 1
+DCR A
+
+;set register B to 26
+MVI B, 26 
+;decrement accumulator by 1
+DCR B
+
+;set memory 4 to 3
+MVI L, 4
+MVI M, 3
+;decrement accumulator by 1
+DCR M
+
+
+hlt

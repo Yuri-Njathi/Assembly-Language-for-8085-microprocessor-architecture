@@ -1,0 +1,20 @@
+
+;<Program title>
+
+jmp start
+
+;data
+
+
+;code
+start: nop
+;set acc to 76
+MVI A, 76
+
+;set reg B to 10
+
+MVI B, 10
+
+;subtract 10 from A
+SUB B
+hlt

@@ -1,0 +1,22 @@
+
+;<Program title>
+
+jmp start
+
+;data
+
+
+;code
+start: nop
+;get negative
+;set accumulator to 20
+MVI A, 20
+
+;subtract immediately.
+SUI 24
+
+
+;subtract from borrow and accum
+SBI 45
+
+hlt

@@ -1,0 +1,17 @@
+
+;<Program title>
+
+jmp start
+
+;data
+
+
+;code
+start: nop
+;set register B = 10
+MVI B, 10
+
+;increment register pair by 1  
+INX B
+
+hlt

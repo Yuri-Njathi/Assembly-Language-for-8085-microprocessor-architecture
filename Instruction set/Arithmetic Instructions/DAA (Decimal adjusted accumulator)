@@ -1,0 +1,20 @@
+
+;<Program title>
+
+jmp start
+
+;data
+
+
+;code
+start: nop
+;DAA accum from binary to BCD digits.
+;only instruction that uses aux flag to perform binary to BCD conversion.
+
+;set accum to 45
+MVI A, 45
+
+;DAA
+DAA
+
+hlt

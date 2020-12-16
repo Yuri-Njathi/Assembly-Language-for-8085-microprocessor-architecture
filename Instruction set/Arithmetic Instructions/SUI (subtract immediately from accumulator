@@ -1,0 +1,17 @@
+
+;<Program title>
+
+jmp start
+
+;data
+
+
+;code
+start: nop
+;set accumulator to 20
+MVI A, 20
+
+;subtract immediately.
+SUI 24
+
+hlt

@@ -1,0 +1,27 @@
+
+;<Program title>
+
+jmp start
+
+;data
+
+
+;code
+start: nop
+
+; increment by 1, contents of accumulator.
+MVI A, 10
+INR A
+
+; increment by 1, contents of register B.
+MVI B, 16
+INR B
+
+; increment by 1, contents of memory address 5.
+MVI L, 5
+MVI M, 45
+INR M
+
+
+
+hlt
