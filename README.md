@@ -10,6 +10,6 @@ The instruction set can be found [here](https://link.springer.com/content/pdf/bb
 
 Going through the instruction set will really get you to understand the MPU.
 
-For example, by going through the Arithmetic Instructions , I found out that the Memory locations can be specified by using H & L registers. This means the 8085 is a von Neumann architecture based.
+For example, by going through the Arithmetic Instructions , I found out that the Memory locations can be specified by using H & L registers. This means the 8085 is a von Neumann architecture based Microprocessor.
 
 :D Please enjoy the Assembly language. 
