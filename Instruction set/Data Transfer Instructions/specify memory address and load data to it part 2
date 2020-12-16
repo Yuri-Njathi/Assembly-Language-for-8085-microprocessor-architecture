@@ -1,0 +1,16 @@
+
+;<Program title>
+
+jmp start
+
+;data
+
+
+;code
+start: nop
+;memory 256 ie 1 * 16^2
+MVI H, 1
+; memory address 256 is loaded with 21.
+MVI M, 21
+
+hlt

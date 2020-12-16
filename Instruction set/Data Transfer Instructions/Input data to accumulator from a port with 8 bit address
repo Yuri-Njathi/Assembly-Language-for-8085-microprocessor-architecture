@@ -1,0 +1,20 @@
+
+;<Program title>
+
+jmp start
+
+;data
+
+
+;code
+start: nop
+;comments
+;load data to I/0 port 87.
+MVI A, 56
+OUT 87
+
+;load data to accumulator from I/O port.
+MVI A , 0
+In 87
+
+hlt

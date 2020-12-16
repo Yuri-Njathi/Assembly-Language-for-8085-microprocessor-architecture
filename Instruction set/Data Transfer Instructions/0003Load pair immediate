@@ -1,0 +1,13 @@
+
+;<Program title>
+
+jmp start
+
+;data
+
+
+;code
+start: nop
+LXI H, 2034
+
+hlt

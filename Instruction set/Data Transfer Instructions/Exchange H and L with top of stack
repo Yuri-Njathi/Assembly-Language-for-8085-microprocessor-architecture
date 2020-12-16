@@ -1,0 +1,15 @@
+
+;<Program title>
+
+jmp start
+
+;data
+
+
+;code
+start: nop
+MVI H, 54
+MVI L, 34
+XTHL
+
+hlt
